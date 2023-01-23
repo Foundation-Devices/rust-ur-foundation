@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ur-foundation
+Upstream-Contact: Foundation Devices, Inc. <hello@foundationdevices.com>
+Source: https://github.com/Foundation-Devices/rust-ur-foundation
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
