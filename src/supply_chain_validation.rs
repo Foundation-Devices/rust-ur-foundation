@@ -68,6 +68,7 @@ impl<'b, C> Decode<'b, C> for Challenge {
                             .map_err(|_| Error::message("invalid hex string (signature)"))?;
                         signature = Some(buf);
                     }
+                    3 => (),
                     _ => return Err(Error::message("unknown map entry")),
                 }
             };
